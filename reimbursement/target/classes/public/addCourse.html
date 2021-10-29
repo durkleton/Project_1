@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Student</title>
+</head>
+<body>
+	<h2 align="center">Add New Course</h2>
+	<form action="/courseForm" method="post">
+		<table align="center">
+			<tr>
+				<td>Enter Course Name :</td>
+				<td><input type="text" name="name" required="required"
+					placeholder="Enter Course Name Here" /></td>
+			</tr>
+			<tr>
+				<td>Enter Course Category :</td>
+				<td><input type="text" name="category" required="required"
+					placeholder="Enter Course Category Here" /></td>
+			</tr>
+			<tr>
+				<td>Enter Course Duration (days) :</td>
+				<td><input type="number" name="duration" required="required"
+					placeholder="Enter Course Duration Here" /></td>
+			</tr>			
+			<tr>
+				<td><input type="reset" value="Clear"></td>
+				<td><input type="submit" value="Add Course"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

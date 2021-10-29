@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Student</title>
+</head>
+<body>
+	<h2 align="center">Add New Student</h2>
+	<form action="/studentsForm" method="post">
+		<table align="center">
+			<tr>
+				<td>Enter Student Name :</td>
+				<td><input type="text" name="name" required="required"
+					placeholder="Enter Student Name Here" /></td>
+			</tr>
+			<tr>
+				<td>Enter Student Email :</td>
+				<td><input type="email" name="email" required="required"
+					placeholder="Enter Student Email Here" /></td>
+			</tr>
+			<tr>
+				<td>Enter Student Mobile :</td>
+				<td><input type="tel" name="mobile" required="required"
+					placeholder="Enter Student Mobile Number Here" /></td>
+			</tr>
+			<tr>
+				<td>Enter Course ID :</td>
+				<td><input type="number" name="courseId" required="required"
+					placeholder="Enter Course Id Here" /></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="Clear"></td>
+				<td><input type="submit" value="Add Student"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
